@@ -41,7 +41,7 @@ function ThemeToggle() {
 }
 
 function Logo() {
-  return <Link to="/" className="flex items-center gap-3"><img src="./logo.png" alt="Q7 Quantum Vision" className="h-10 w-10 rounded-full object-cover" /><span className="font-display text-sm font-semibold tracking-[0.18em] text-white">Q7 <span className="text-cyan-300">QUANTUM</span><br /><span className="text-[10px] tracking-[0.32em] text-slate-400">VISION SYSTEMS</span></span></Link>;
+  return <Link to="/" className="flex items-center gap-3"><img src={`${import.meta.env.BASE_URL}logo.png`} alt="Q7 Quantum Vision" className="h-10 w-10 rounded-full object-cover" /><span className="font-display text-sm font-semibold tracking-[0.18em] text-white">Q7 <span className="text-cyan-300">QUANTUM</span><br /><span className="text-[10px] tracking-[0.32em] text-slate-400">VISION SYSTEMS</span></span></Link>;
 }
 
 function Layout({ children }: { children: React.ReactNode }) {
