@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-labelledby="title description">
+  <title id="title">Q7 Quantum Vision Insights</title>
+  <desc id="description">Editorial illustration of connected cryptographic systems in navy, blue and silver.</desc>
+  <rect width="1200" height="525" fill="#081b52"/>
+  <path d="M0 414h1200M0 448h1200" stroke="#c8d0db" stroke-opacity=".12"/>
+  <path d="M820 0v525M900 0v525M980 0v525M1060 0v525M1140 0v525" stroke="#c8d0db" stroke-opacity=".08"/>
+  <path d="M768 0v525" stroke="#1296ff" stroke-opacity=".5"/>
+  <path d="M819 260h109m0 0 52-62m-52 62 52 62m-52-62h110m0 0 55-60m-55 60 55 60m-55-60h108" fill="none" stroke="#1296ff" stroke-width="3"/>
+  <g fill="#081b52" stroke="#c8d0db" stroke-width="2">
+    <rect x="810" y="237" width="22" height="46" rx="4"/>
+    <rect x="916" y="180" width="22" height="40" rx="4"/>
+    <rect x="916" y="300" width="22" height="40" rx="4"/>
+    <rect x="1025" y="237" width="22" height="46" rx="4"/>
+    <rect x="1080" y="177" width="22" height="40" rx="4"/>
+    <rect x="1080" y="303" width="22" height="40" rx="4"/>
+    <rect x="1185" y="237" width="22" height="46" rx="4"/>
+  </g>
+  <circle cx="768" cy="260" r="7" fill="#1296ff"/>
+  <text x="72" y="145" fill="#c8d0db" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="5">Q7 QUANTUM VISION</text>
+  <text x="72" y="255" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="600" letter-spacing="-2">Insights</text>
+  <text x="76" y="305" fill="#c8d0db" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">Cryptography, migration and quantum engineering</text>
+  <rect x="72" y="352" width="68" height="4" fill="#1296ff"/>
+</svg>

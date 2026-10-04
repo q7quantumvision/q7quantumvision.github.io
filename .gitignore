@@ -13,6 +13,8 @@ dist
 dist-ssr
 *.local
 
+plan.md
+
 .vscode/*
 !.vscode/extensions.json
 .idea

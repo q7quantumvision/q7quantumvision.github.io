@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "cryptographic-inventory-pqc-migration",
+    "title": "What Is a Cryptographic Inventory and Why Does PQC Migration Start There?",
+    "date": "2026-10-04",
+    "author": "Q7 Quantum Vision",
+    "summary": "A cryptographic inventory records where cryptography is used, what it protects and how those uses depend on systems and services. It gives a post-quantum migration program an evidence-based starting point.",
+    "readingTime": "5 min read",
+    "tags": ["Post-quantum cryptography", "Inventory", "Migration"],
+    "sections": [
+      {
+        "heading": "Start with discovery",
+        "paragraphs": [
+          "Cryptography can appear in application code, libraries, network connections, certificates, key-management systems and third-party services. A discovery effort gathers evidence from these different sources and records where findings came from.",
+          "No single scan should be treated as a complete picture. Record what has been checked, what remains unknown and who can confirm how each system is used."
+        ]
+      },
+      {
+        "heading": "Record context, not just algorithms",
+        "paragraphs": [
+          "For each observed use, teams need enough context to understand its purpose, dependencies, data sensitivity, lifecycle and operational constraints. The same algorithm may have different importance depending on where and why it is used.",
+          "A cryptographic bill of materials, or CBOM, can structure component-level information. An organizational inventory adds relationships, ownership and business context around those components."
+        ]
+      },
+      {
+        "heading": "Use the inventory to guide work",
+        "paragraphs": [
+          "A documented baseline helps teams identify evidence gaps, investigate dependencies, agree priorities and develop migration options. Discovery and planning inform one another, so the inventory should be updated as new information becomes available.",
+          "An inventory is a planning aid. It does not by itself establish that a system is secure, compliant or ready to migrate."
+        ]
+      }
+    ],
+    "related": ["cbom-and-cryptographic-inventory", "practical-pqc-migration-lifecycle"]
+  },
+  {
+    "slug": "cbom-and-cryptographic-inventory",
+    "title": "CBOM vs Cryptographic Inventory",
+    "date": "2026-10-04",
+    "author": "Q7 Quantum Vision",
+    "summary": "A CBOM describes cryptographic components and their properties. A cryptographic inventory places those observations in the context of applications, owners, dependencies and migration decisions.",
+    "readingTime": "4 min read",
+    "tags": ["CBOM", "Inventory", "Post-quantum cryptography"],
+    "sections": [
+      {
+        "heading": "A component view",
+        "paragraphs": [
+          "A cryptographic bill of materials is a structured way to describe cryptographic components and their attributes, such as algorithms, libraries, protocols or key-management references. The exact fields depend on the format and the information available."
+        ]
+      },
+      {
+        "heading": "An organizational view",
+        "paragraphs": [
+          "A cryptographic inventory connects observations to the systems and teams that use them. It can include evidence sources, business purpose, ownership, dependencies, confidence and known gaps.",
+          "This broader context helps migration teams decide what to investigate next and how changes in one component may affect other services."
+        ]
+      },
+      {
+        "heading": "Use them together",
+        "paragraphs": [
+          "A CBOM can contribute structured component data to an inventory. Neither label guarantees completeness: teams still need to validate findings, maintain provenance and record unresolved questions."
+        ]
+      }
+    ],
+    "related": ["cryptographic-inventory-pqc-migration", "practical-pqc-migration-lifecycle"]
+  },
+  {
+    "slug": "practical-pqc-migration-lifecycle",
+    "title": "A Practical PQC Migration Lifecycle",
+    "date": "2026-10-04",
+    "author": "Q7 Quantum Vision",
+    "summary": "Post-quantum migration is a sequence of discovery, inventory, assessment, prioritization, planning and validation activities, revisited as teams learn more about their systems.",
+    "readingTime": "5 min read",
+    "tags": ["Migration planning", "Post-quantum cryptography", "Engineering"],
+    "sections": [
+      {
+        "heading": "Establish the baseline",
+        "paragraphs": [
+          "Begin by identifying where cryptography is used and collecting evidence about applications, protocols, certificates, keys, libraries and external dependencies. Record ownership and uncertainty alongside each finding."
+        ]
+      },
+      {
+        "heading": "Assess and prioritize",
+        "paragraphs": [
+          "Use system purpose, data lifetime, exposure, operational constraints and dependency information to decide where further analysis is most useful. Priorities should be based on the organization's context, not on an unqualified ranking."
+        ]
+      },
+      {
+        "heading": "Plan, implement and validate",
+        "paragraphs": [
+          "Define target architectures and sequence changes around compatibility, interoperability and service constraints. Validate assumptions in controlled environments before applying changes to production systems.",
+          "Treat the lifecycle as iterative. Testing can reveal new dependencies, which may require updates to the inventory and plan."
+        ]
+      }
+    ],
+    "related": ["cryptographic-inventory-pqc-migration", "why-pqc-is-more-than-replacing-algorithms"]
+  },
+  {
+    "slug": "what-crypto-agility-means",
+    "title": "What Crypto-Agility Really Means",
+    "date": "2026-10-04",
+    "author": "Q7 Quantum Vision",
+    "summary": "Crypto-agility is the ability to change cryptographic mechanisms with understood impacts. It depends on architecture, governance, testing and operational readiness, not only replaceable code.",
+    "readingTime": "4 min read",
+    "tags": ["Crypto-agility", "Architecture", "Engineering"],
+    "sections": [
+      {
+        "heading": "Design for deliberate change",
+        "paragraphs": [
+          "An architecture can make cryptographic choices explicit and isolate them behind well-defined interfaces. This can reduce the number of places that need direct changes when a mechanism or configuration changes."
+        ]
+      },
+      {
+        "heading": "Include the operating model",
+        "paragraphs": [
+          "Replaceable components are only one part of agility. Teams also need ownership, approved options, dependency awareness, compatibility testing, key and certificate lifecycle processes, deployment controls and rollback plans."
+        ]
+      },
+      {
+        "heading": "Measure what can actually change",
+        "paragraphs": [
+          "Review a representative system and trace how a cryptographic choice is configured, distributed, tested and monitored. This reveals practical constraints that a diagram or abstraction alone cannot show."
+        ]
+      }
+    ],
+    "related": ["cryptographic-inventory-pqc-migration", "practical-pqc-migration-lifecycle"]
+  },
+  {
+    "slug": "why-pqc-is-more-than-replacing-algorithms",
+    "title": "Why PQC Migration Is More Than Replacing RSA and ECC",
+    "date": "2026-10-04",
+    "author": "Q7 Quantum Vision",
+    "summary": "A post-quantum transition affects protocols, certificates, devices, dependencies, interoperability and operations. Algorithm selection is one part of a wider engineering program.",
+    "readingTime": "5 min read",
+    "tags": ["Post-quantum cryptography", "Interoperability", "Migration"],
+    "sections": [
+      {
+        "heading": "Cryptography lives in systems",
+        "paragraphs": [
+          "Public-key algorithms are used through software libraries, protocols, certificate infrastructure, hardware and managed services. Changing an algorithm can affect message sizes, protocol support, device constraints and interactions between systems."
+        ]
+      },
+      {
+        "heading": "Dependencies shape the path",
+        "paragraphs": [
+          "Legacy applications, supplier services and long-lived devices may not change on the same schedule. An inventory helps teams identify those relationships and ask vendors and internal owners informed questions."
+        ]
+      },
+      {
+        "heading": "Plan and test the transition",
+        "paragraphs": [
+          "Migration planning should account for compatibility, operational monitoring, certificate and key processes, deployment sequencing and validation. Each environment needs testing against its own requirements and constraints."
+        ]
+      }
+    ],
+    "related": ["practical-pqc-migration-lifecycle", "how-simulation-can-reduce-pqc-migration-risk"]
+  },
+  {
+    "slug": "how-simulation-can-reduce-pqc-migration-risk",
+    "title": "How Simulation Can Reduce PQC Migration Risk",
+    "date": "2026-10-04",
+    "author": "Q7 Quantum Vision",
+    "summary": "A controlled simulation can help teams compare migration assumptions, dependencies and operational scenarios before changing production systems. Its value depends on how closely the model represents the real environment.",
+    "readingTime": "4 min read",
+    "tags": ["Simulation", "Migration planning", "Validation"],
+    "sections": [
+      {
+        "heading": "Make assumptions testable",
+        "paragraphs": [
+          "A model of applications, protocols, certificates, services and dependencies can help teams examine a proposed sequence and identify questions that require further evidence."
+        ]
+      },
+      {
+        "heading": "Keep the model honest",
+        "paragraphs": [
+          "Simulation results are only as useful as their assumptions and input data. Distinguish observed facts from modeled behavior, document limitations and avoid treating a simulated outcome as a production guarantee."
+        ]
+      },
+      {
+        "heading": "Use simulation alongside validation",
+        "paragraphs": [
+          "Simulation can support planning and comparison. Compatibility testing, security review and operational validation remain necessary before a production change."
+        ]
+      }
+    ],
+    "related": ["why-pqc-is-more-than-replacing-algorithms", "practical-pqc-migration-lifecycle"]
+  },
+  {
+    "slug": "quantum-error-correction-and-hardware-constraints",
+    "title": "Quantum Error Correction: From Code Parameters to Hardware Constraints",
+    "date": "2026-10-04",
+    "author": "Q7 Quantum Vision",
+    "summary": "Quantum error-correction concepts connect encoding and syndrome information to physical operations, noise models and hardware constraints. Comparing codes requires clearly stated assumptions and metrics.",
+    "readingTime": "5 min read",
+    "tags": ["Quantum error correction", "Fault tolerance", "Research"],
+    "sections": [
+      {
+        "heading": "Codes describe more than a logical qubit",
+        "paragraphs": [
+          "Code parameters help describe how information is encoded and what error patterns a code can detect or correct under stated assumptions. They do not, by themselves, determine the performance of a physical implementation."
+        ]
+      },
+      {
+        "heading": "Syndrome extraction has a physical cost",
+        "paragraphs": [
+          "A correction workflow uses measurements and operations to gather information about errors without directly measuring the encoded logical information. Circuit depth, connectivity, gate quality, measurement behavior and decoding all affect how a proposed workflow maps to hardware."
+        ]
+      },
+      {
+        "heading": "Benchmark with explicit assumptions",
+        "paragraphs": [
+          "Meaningful comparisons state the noise model, hardware constraints, decoding method and evaluation metric. Results under one model should not be presented as hardware performance without corresponding evidence."
+        ]
+      }
+    ],
+    "related": ["what-crypto-agility-means", "how-simulation-can-reduce-pqc-migration-risk"]
+  }
+]

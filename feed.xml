@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Q7 Quantum Vision Insights</title>
+    <link>https://www.q7quantumvision.com/insights/</link>
+    <description>Technical notes on cryptographic discovery, migration and quantum engineering.</description>
+    <language>en</language>
+    <item>
+      <title>What Is a Cryptographic Inventory and Why Does PQC Migration Start There?</title>
+      <link>https://www.q7quantumvision.com/insights/cryptographic-inventory-pqc-migration</link>
+      <guid>https://www.q7quantumvision.com/insights/cryptographic-inventory-pqc-migration</guid>
+      <description>A cryptographic inventory records where cryptography is used, what it protects and how those uses depend on systems and services. It gives a post-quantum migration program an evidence-based starting point.</description>
+      <author>Q7 Quantum Vision</author>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Post-quantum cryptography</category>
+      <category>Inventory</category>
+      <category>Migration</category>
+    </item>
+    <item>
+      <title>CBOM vs Cryptographic Inventory</title>
+      <link>https://www.q7quantumvision.com/insights/cbom-and-cryptographic-inventory</link>
+      <guid>https://www.q7quantumvision.com/insights/cbom-and-cryptographic-inventory</guid>
+      <description>A CBOM describes cryptographic components and their properties. A cryptographic inventory places those observations in the context of applications, owners, dependencies and migration decisions.</description>
+      <author>Q7 Quantum Vision</author>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 GMT</pubDate>
+      <category>CBOM</category>
+      <category>Inventory</category>
+      <category>Post-quantum cryptography</category>
+    </item>
+    <item>
+      <title>A Practical PQC Migration Lifecycle</title>
+      <link>https://www.q7quantumvision.com/insights/practical-pqc-migration-lifecycle</link>
+      <guid>https://www.q7quantumvision.com/insights/practical-pqc-migration-lifecycle</guid>
+      <description>Post-quantum migration is a sequence of discovery, inventory, assessment, prioritization, planning and validation activities, revisited as teams learn more about their systems.</description>
+      <author>Q7 Quantum Vision</author>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Migration planning</category>
+      <category>Post-quantum cryptography</category>
+      <category>Engineering</category>
+    </item>
+    <item>
+      <title>What Crypto-Agility Really Means</title>
+      <link>https://www.q7quantumvision.com/insights/what-crypto-agility-means</link>
+      <guid>https://www.q7quantumvision.com/insights/what-crypto-agility-means</guid>
+      <description>Crypto-agility is the ability to change cryptographic mechanisms with understood impacts. It depends on architecture, governance, testing and operational readiness, not only replaceable code.</description>
+      <author>Q7 Quantum Vision</author>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Crypto-agility</category>
+      <category>Architecture</category>
+      <category>Engineering</category>
+    </item>
+    <item>
+      <title>Why PQC Migration Is More Than Replacing RSA and ECC</title>
+      <link>https://www.q7quantumvision.com/insights/why-pqc-is-more-than-replacing-algorithms</link>
+      <guid>https://www.q7quantumvision.com/insights/why-pqc-is-more-than-replacing-algorithms</guid>
+      <description>A post-quantum transition affects protocols, certificates, devices, dependencies, interoperability and operations. Algorithm selection is one part of a wider engineering program.</description>
+      <author>Q7 Quantum Vision</author>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Post-quantum cryptography</category>
+      <category>Interoperability</category>
+      <category>Migration</category>
+    </item>
+    <item>
+      <title>How Simulation Can Reduce PQC Migration Risk</title>
+      <link>https://www.q7quantumvision.com/insights/how-simulation-can-reduce-pqc-migration-risk</link>
+      <guid>https://www.q7quantumvision.com/insights/how-simulation-can-reduce-pqc-migration-risk</guid>
+      <description>A controlled simulation can help teams compare migration assumptions, dependencies and operational scenarios before changing production systems. Its value depends on how closely the model represents the real environment.</description>
+      <author>Q7 Quantum Vision</author>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Simulation</category>
+      <category>Migration planning</category>
+      <category>Validation</category>
+    </item>
+    <item>
+      <title>Quantum Error Correction: From Code Parameters to Hardware Constraints</title>
+      <link>https://www.q7quantumvision.com/insights/quantum-error-correction-and-hardware-constraints</link>
+      <guid>https://www.q7quantumvision.com/insights/quantum-error-correction-and-hardware-constraints</guid>
+      <description>Quantum error-correction concepts connect encoding and syndrome information to physical operations, noise models and hardware constraints. Comparing codes requires clearly stated assumptions and metrics.</description>
+      <author>Q7 Quantum Vision</author>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Quantum error correction</category>
+      <category>Fault tolerance</category>
+      <category>Research</category>
+    </item>
+  </channel>
+</rss>
